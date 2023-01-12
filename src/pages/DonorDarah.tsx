@@ -8,6 +8,7 @@ import Layout from "../components/Layout";
 const DonorDarah: FC = () => {
   const ref1 = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
+  
   return (
     <Layout>
       <div className="absolute top-0 left-0 -z-10 h-screen w-screen">
